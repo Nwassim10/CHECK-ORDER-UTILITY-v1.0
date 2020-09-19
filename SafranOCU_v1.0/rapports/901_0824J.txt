@@ -1,0 +1,16 @@
+-------------------------------------------
+-------------  RAPPORT FINAL  -------------
+-------------------------------------------
+
+ID COMMANDE = 901
+QUANTITE = 3
+Semaine = 1
+OF = 0824J
+
+
+CHARIOT NUMERO  1  --->  OK
+CHARIOT NUMERO  2  --->  OK
+CHARIOT NUMERO  3  --->  OK
+
+
+

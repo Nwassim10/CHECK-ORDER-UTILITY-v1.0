@@ -1,0 +1,16 @@
+-------------------------------------------
+-------------  RAPPORT FINAL  -------------
+-------------------------------------------
+
+ID COMMANDE = 595
+QUANTITE = 3
+Semaine = 2
+OF = ILH34
+
+
+CHARIOT NUMERO  1  --->  OK
+CHARIOT NUMERO  2  --->  OK
+CHARIOT NUMERO  3  --->  OK
+
+
+

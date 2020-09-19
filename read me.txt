@@ -1,0 +1,29 @@
+Cette application necessite gtk3.0 pour fonctionner. Visiter https://www.gtk.org/docs/installations/windows/ pour voir les instructions d'installation.
+I - Comment installer:
+1/ Copier les 2 dossiers SafranOCU_v1.0 et Safran sous votre
+racine C:/ ( Il est imperatif que ces dossiers gardent ces noms exacts!).
+2/ Ajouter le dossier Safran a votre variable path comme suit:
+Windows10:
+*This pc --> Properties --> Advanced system settings -->
+Advanced --> environment variables
+*Chercher la variable nommee "PATH" dans System
+variable --> Selectionner la et appuyer sur edit puis sur new.
+*Metter C:/Safran et sauvegarder.
+2 - Utilisation de l'application:
+*Pour lancer l'application, rendez vous sur le dossier
+SafranOCU_v1.0 et ouvrez SafranOCU.exe
+*Dans ce repertoire vous allez trouver 4 fichiers .txt qui contiennent
+les bases de donnees de kit,Fqi,utilisateurs et chariots. Ces fichiers sont
+nommes respectivement bdd.txt, fqi.txt, userslist.txt et chariot.txt.
+Ces fichiers sont structures de la maniere suivante:
+-La premiere ligne contient le nombre cardinal de la base
+de donnee. Par exemple si on a 6 utilisateurs au total la premiere ligne du fichier
+userslist.txt sera 6.
+*Pensez a creer une sauvegarde de ces 4 fichiers car tout
+changement qui est pas fait a travers l'application peut creer des problemes.
+*A la fin de chaque operation de check, un fichier recapitulatif sera
+creé, il sera sauvegarde dans C:/SafranOCU_v1.0/rapports. Son nom sera
+comme suit:id "commande_numOf.txt"
+Par exemple si on vient de check une commande de kit "595" et de
+num OF "XXX", le nom du fichier sera 595_XXX.txt.
+Ce fichier sera aussi imprime automatiquement a la fin du check.
